@@ -1,0 +1,39 @@
+# Core Earth Engine and Google Colab dependencies
+earthengine-api>=0.1.384
+google-auth>=2.25.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# Geospatial libraries
+rasterio>=1.3.9
+GDAL>=3.6.0
+fiona>=1.9.5
+geopandas>=0.14.1
+shapely>=2.0.2
+pyproj>=3.6.1
+
+# Image processing and analysis
+numpy>=1.24.0
+scipy>=1.11.4
+scikit-image>=0.22.0
+opencv-python>=4.8.1.78
+
+# Data handling
+pandas>=2.1.4
+xarray>=2023.12.0
+
+# Visualization (optional but useful)
+matplotlib>=3.8.2
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.1
+pillow>=10.1.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.27.1
+notebook>=7.0.6
+
+# Optional: For additional SAR processing
+sentinelhub>=3.9.1
